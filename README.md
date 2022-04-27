@@ -1,4 +1,4 @@
-![Senai](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png width=400px)
+![Senai](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_S%C3%A3o_Paulo_logo.png/1280px-SENAI_S%C3%A3o_Paulo_logo.png | width=400px)
 # Curso Senai DevFullStack
 
 Este repositório irá conter todas as atividades desenvolvidas durante o curso.
