@@ -10,5 +10,3 @@ Bora aprender juntos? 😀
 
 - [X] [UC 6 - Metodologias Ágeis](https://trello.com/invite/b/KYADSMfJ/db21165e5d71a907b7aaa83a1f93a631/curso-senai-app-loja-de-roupas)
 - [X] [UC 7 - Versionamento](https://github.com/ce-cmiranda/CursoSenaiFullStack/tree/main/UC7%20-%20VERSIONAMENTO)
-
-Repositório Utilizado para o Curso DevFullStack Senai
