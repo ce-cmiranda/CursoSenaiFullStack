@@ -6,7 +6,7 @@
 | 2 |  git init |  Inicia o git no repositório local |  https://git-scm.com/docs/git-init |
 | 3 |  git remote |  Conecta um repositório local a um repositório da nuvem |  https://git-scm.com/docs/git-remote |
 | 4 |  git clone | Busca um projeto git do repositório da nuvem e cria um repositório local ligado a este repositório da nuvem. Ele já faz uma cópia de todos os arquivos do último commit contido na nuvem |  https://git-scm.com/docs/git-clone |
-| 5 |  git add |   |  Adiciona as mudanças realizadas a uma área de staging | https://git-scm.com/docs/git-add |
+| 5 |  git add |  Adiciona as mudanças realizadas a uma área de staging | https://git-scm.com/docs/git-add |
 | 6 |  git commit | Grava as alterações realizadas |  https://git-scm.com/docs/git-commit |
 | 7 |  git push | Envia as alterações do commit do repositório local para a nuvem |  https://git-scm.com/docs/git-push |
 | 8 |  git pull |  Atualiza o repositório local com os arquivos do repositório na nuvem |  https://git-scm.com/docs/git-pull |
