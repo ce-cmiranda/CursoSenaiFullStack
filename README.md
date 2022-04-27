@@ -7,7 +7,7 @@ Cada módulo do curso terá sua pasta própria.
 Bora aprender juntos? 😀
 
 
-– [x] http://github.com – automatic! [GitHub](http://github.com)
-– [ ] This is an incomplete item
+- [ ] [UC 7 - Versionamento](https://github.com/ce-cmiranda/CursoSenaiFullStack/tree/main/UC7%20-%20VERSIONAMENTO)
+- [ ] This is an incomplete item
 
 Repositório Utilizado para o Curso DevFullStack Senai
