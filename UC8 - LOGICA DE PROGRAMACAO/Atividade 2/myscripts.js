@@ -80,7 +80,11 @@ function selectEvent()
         eventListString = eventListString + String(eventCode) + ": "+eventos[eventCode].name+"\n"
     };
     eventPick = prompt(eventListString+"\n"+"Escolha o código do evento em que você deseja\
- adicionar o participante:")
+ adicionar:")
+    if (!eventos[eventPick]){
+        alert("Código de evento não encontrado! Por favor tente novamente.")
+        return false
+    }
     alert(`O evento escolhido foi: ${eventPick}`)
     return eventPick 
     }
@@ -99,7 +103,13 @@ function getAge(birthDate) {
 
 function addParticipant()
 {
-    selectEvent()
+
+    eventPick = selectEvent()
+    if (!eventPick)
+    {
+        return false
+    }
+
     let name = prompt("Qual é o nome do participante?");
     if (name == null)
     {
@@ -133,4 +143,19 @@ function addParticipant()
         alert("Data de nascimento inválida! Por favor tente novamente. O formato aceito é dd/mm/aaaa")
     }
 
+}
+
+
+function addSpeaker()
+{
+    selectEvent()
+    let name = prompt("Qual é o nome do palestrante?");
+    if (name == null)
+    {
+        return false
+    }
+
+    eventos[eventPick].speakers.push([{"name": name}])
+    alert("Palestrante Cadastrado com Sucesso")
+    console.log(eventos[eventPick].speakers)
 }
