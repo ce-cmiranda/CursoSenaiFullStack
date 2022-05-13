@@ -21,20 +21,19 @@ else
 
 let nomePeca = "Disco de Freio"
 
-/*
-if(nomePeca.length >= 3)
-{
-console.log("Nome da peça adequado para o cadastro.")
-}
-else if(nomePeca.length ==0)
-{
-console.log("Nome da peça não pode ser vazio")
-}
-else
-{
-    console.log("O nome deve ter ao menos 3 caracteres para ser cadastrado.")
-}
-*/
+
+// if(nomePeca.length >= 3)
+// {
+// console.log("Nome da peça adequado para o cadastro.")
+// }
+// else if(nomePeca.length ==0)
+// {
+// console.log("Nome da peça não pode ser vazio")
+// }
+// else
+// {
+//     console.log("O nome deve ter ao menos 3 caracteres para ser cadastrado.")
+// }
 
 switch (nomePeca.length) {
     case 0:
