@@ -1,8 +1,8 @@
 // This will be used to assign a code to an event
-eventCount = 0
+let eventCount = 0
 
 // Storage of events
-events = {
+let events = {
     // Uncomment this event to test 100 participants case 
     // 100: {
     //     "name": "Test",
