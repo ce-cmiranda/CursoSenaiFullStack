@@ -10,4 +10,5 @@ Bora aprender juntos? 😀
 
 - [X] [UC 6 - Metodologias Ágeis](https://trello.com/invite/b/KYADSMfJ/db21165e5d71a907b7aaa83a1f93a631/curso-senai-app-loja-de-roupas)
 - [X] [UC 7 - Versionamento](https://github.com/ce-cmiranda/CursoSenaiFullStack/tree/main/UC7%20-%20VERSIONAMENTO)
-- [ ] [UC 8 - Lógica de Programação](https://github.com/ce-cmiranda/CursoSenaiFullStack/tree/main/UC8%20-%20LOGICA%20DE%20PROGRAMACAO)
+- [X] [UC 8 - Lógica de Programação](https://github.com/ce-cmiranda/CursoSenaiFullStack/tree/main/UC8%20-%20LOGICA%20DE%20PROGRAMACAO)
+- [ ] [UC 9 - Codificação para Front-End](https://github.com/ce-cmiranda/CursoSenaiFullStack/tree/main/UC9%20-%20CODIFICA%C3%87%C3%83O%20PARA%20FRONT-END)
