@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Mania</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slider.css">
+    
 
 
 </head>
@@ -21,18 +27,23 @@
             <span>(11) 99999 - 9999</span>
         </div>
         <div class="socialMedia">
-            <img src="images/SocialMedia/Social Media Icon Facebook.svg"></li>
-            <img src="images/SocialMedia/Social Media Icon Instagram.svg"></li>
-            <img src="images/SocialMedia/Social Media Icon Twitter.svg"></li>
+            <img src="images/SocialMedia/Social Media Icon Facebook.svg">
+            <img src="images/SocialMedia/Social Media Icon Instagram.svg">
+            <img src="images/SocialMedia/Social Media Icon Twitter.svg">
             <img src="images/SocialMedia/Social Media Icon Whatsapp.svg">
         </div>
     </div>
     <header>
         <div id="logo">
         </div>
-        <div id="searchBar">
-        </div>
+        <form id="searchBar">
+            <input placeholder="O que você procura?">
+            <button><i class="fa fa-search"></i></button>
+        </form>
         <div id="headerProfile">
+            <a href="login.html">
+                <img src="./images/Icons/My Account.png">
+            </a>
         </div>
     </header>
     <!-- <menu> -->
@@ -80,22 +91,82 @@
 
     <div class="news">
         <h2>Novidades</h2>
-        <p>Aqui ficarão nossas novidades</p>
+        <!-- <p>Aqui ficarão nossas novidades</p> -->
     </div>
-
+<!-- 
     <div class="gallery">
         <h2>Galeria</h2>
         <img src="images/img1.jpg">
         <img src="images/img2.jpg">
         <img src="images/img3.jpg">
         <img src="images/img4.jpg">
+    </div> -->
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <!-- <div class="mySlides fade"> -->
+    <div class="mySlides">
+      <!-- <div class="numbertext">1 / 4</div> -->
+      <img src="images/img1.jpg">
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
+  
+    <!-- <div class="mySlides fade"> -->
+    <div class="mySlides">
+      <!-- <div class="numbertext">2 / 4</div> -->
+      <img src="images/img2.jpg">
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
+  
+    <!-- <div class="mySlides fade"> -->
+    <div class="mySlides">
+      <!-- <div class="numbertext">3 / 4</div> -->
+      <img src="images/img3.jpg">
+      <!-- <div class="text">Caption Three</div> -->
     </div>
 
+    <div class="mySlides">
+        <!-- <div class="numbertext">4 / 4</div> -->
+        <img src="images/img4.jpg">
+        <!-- <div class="text">Caption Three</div> -->
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
     <footer>
-        <h2>Footer</h2>
-        <p>Aqui ficarão as informações do Rodapé</p>
+        <div id="logo">
+        </div>
+        <div class="socialMedia">
+            <img src="images/SocialMedia/Social Media Icon Facebook White.svg">
+            <img src="images/SocialMedia/Social Media Icon Instagram White.svg">
+            <img src="images/SocialMedia/Social Media Icon Twitter White.svg">
+            <img src="images/SocialMedia/Social Media Icon Whatsapp White.svg">
+        </div>
+        <form id="newsletter">
+            <label>Receba sempre as novidades!</label>
+            <div>
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">Quero receber!</button>
+            </div>
+        </form>
+        </div>
     </footer>
 
+    <script src="slider.js"></script>
 </body>
 
 </html>
