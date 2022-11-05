@@ -1,0 +1,229 @@
+html, body
+{
+    margin: 0;
+    font-family: 'Galindo';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.banner > img{
+    height: 500px;
+}
+
+.headerContacs
+{
+    display: flex;
+    color: #D21212;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+    height: 50px;
+    font-size: 18px;
+}
+.headerContacs > *
+{
+    display: flex;
+    align-items: center;
+}
+.headerContacs > * > img
+{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+header
+{
+    background-color: #D21212;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    
+}
+
+
+#logo
+{
+    background-image: url("images/Logo.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    height: 70px;
+    width: 15%;
+}
+#searchBar
+{
+    /* height: 70px; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#searchBar > input
+{
+    width: 90%;
+    border: none;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    padding: 5px;
+    text-align:center;
+}
+
+#searchBar > input::placeholder
+{
+    text-align: center;
+}
+
+#searchBar > button
+{
+    background-color: #ffffff;
+    border: none;
+    width: 10%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#headerProfile
+{
+    /* height: 30px; */
+    width: 15%;
+}
+
+#headerProfile img
+{
+    /* background-color: #2bd125; */
+    height: 50px;
+    /* width: 15%; */
+}
+
+.nav
+{
+    justify-content: space-between;
+    margin: 0px 8% 0px 8%;
+}
+.nav-link
+{
+    color: #000000;
+}
+
+.nav-link:hover
+{
+    color: #D21212;
+}
+
+.nav-item
+{
+    display: flex;
+    align-items: center;
+    border-right:1px solid;
+    padding-right: 1.8%;
+}
+.nav-item:first-child
+{
+    border-left:1px solid;
+    padding-left: 1.8%;
+}
+.nav-item > .img-thumbnail
+{
+    height: 30px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner img
+{
+    width: 100%;
+}
+.highlights
+{
+    display: flex;
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
+    /* background-color: #2bd125; */
+}
+
+.highlights > div
+{
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items:center;
+    vertical-align:middle;
+    background-color: #2bd125;
+    /* top: 50%; */
+}
+
+.highlights > div > img
+{
+    /* height: 100px; */
+    max-height: 50px;
+    background-color: aqua;
+}
+.highlights div p
+{
+    background-color: #D21212;
+
+}
+
+.news
+{
+    text-align: center;
+}
+
+footer
+{
+
+    background-color: #D21212;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+#newsletter
+{
+    width: 25%;
+    font-size: 0.5em;
+    padding: 0;
+}
+
+
+#newsletter > label
+{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+#newsletter > div
+{
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+#newsletter > div > input
+{
+    width: 60%;
+}
+
+#newsletter > div > button
+{
+    border: none;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    background-color: #000000;
+    color: white;
+    width: 40%;
+}
+#newsletter > div > button:hover
+{
+    cursor: pointer;
+}

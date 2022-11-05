@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css?family=Galindo" rel="stylesheet">
+    <title>Login - Game Mania</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+        </div>
+        <menu>
+            <a href="index.html">Início</a>
+            <a href="construcao.html">Outras páginas</a>   
+        </menu>
+    </header>
+    <div id="loginForm" class="container">
+        <form >
+            <label>Email:</label>
+            <input type="email" placeholder="seuemail@endereco.com.br"></input>
+            <label>Senha:</label>
+            <input type="password"></input>
+            <button type="button" onclick="login()">Entrar</button>
+        </form>
+        <a href="construcao.html">Esqueci Minha</a>
+        <a href="construcao.html">Não tenho Cadastro</a>
+    </div>
+
+    <div id="loggedInPage" style="visibility: hidden;">
+        <h1>Usuário: {{user}} logado! Bem vindo :) </h1>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
