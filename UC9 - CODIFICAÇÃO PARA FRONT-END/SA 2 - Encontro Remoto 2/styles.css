@@ -1,0 +1,46 @@
+html, body, section
+{
+    margin: 0;
+    padding: 0;
+    background-color: #1E1C21;
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 100%;
+}
+
+.myNavBar
+{
+    margin: 0px 10% 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    background-color: #1E1C21;
+}
+
+#logo
+{
+    background-image: url("images/logo.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    height: 200px;
+    width: 15%;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+}
+
+.btn-primary
+{
+    background-color: #C31616
+}
+
+.btn-primary:hover
+{
+    background-color: #000000
+}
+.btn-primary:target
+{
+    background-color: #C31616
+}
