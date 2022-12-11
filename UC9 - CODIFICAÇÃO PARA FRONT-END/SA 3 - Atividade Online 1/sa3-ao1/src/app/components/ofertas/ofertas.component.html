@@ -1,0 +1,37 @@
+<section class="ofertas">
+    <!-- <p>Cards de ofertas</p> -->
+    <h1>Ofertas</h1>
+    <div class="listaOfertas">
+        <!-- <div class="card">
+            <img src="../../../assets/img/cardnews.jpg" alt="Avatar">
+            <div class="container">
+              <h4><b>JOGO DO ANO</b></h4>
+              <p>Architect & Engineer</p>
+              <h3>R$45,00</h3>
+              <button type="button">Compre já</button>
+            </div>
+          </div>
+
+          
+           -->
+          
+           <div *ngFor="let card of cards">
+            <div class="card">
+                <mat-card class="example-card">
+                    <mat-card-header>
+                      <div mat-card-avatar class="example-header-image"></div>
+                      <mat-card-title>Jogo do Ano</mat-card-title>
+                      <mat-card-subtitle>Architect & Engineer</mat-card-subtitle>
+                    </mat-card-header>
+                    <img mat-card-image src="../../../assets/img/cardnews.jpg" alt="cardnews">
+                    <mat-card-content>
+                        <h3>R$45,00</h3>
+                    </mat-card-content>
+                    <mat-card-actions>
+                      <button mat-button>Compre já!</button>
+                    </mat-card-actions>
+                  </mat-card>
+            </div>
+        </div>
+    </div>
+</section>
