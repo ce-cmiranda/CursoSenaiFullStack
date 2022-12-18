@@ -23,6 +23,7 @@ export class CadastroCreateComponent implements OnInit {
   createCadastro(): void{
     this.cadastroService.create(this.cadastro).subscribe(()=>{
       this.cadastroService.showMessage('Usuário cadastrado!')
+      this.router.navigate(['cadastro/tabela'])
     })
   }
 

@@ -46,6 +46,6 @@ export class CadastroReadComponent implements OnInit {
   }
 
   displayedColumns: string[] = ['id', 'usuario', 'senha', 'action'];
-  dataSource = ELEMENT_DATA;
+  // dataSource = ELEMENT_DATA;
 }
 
