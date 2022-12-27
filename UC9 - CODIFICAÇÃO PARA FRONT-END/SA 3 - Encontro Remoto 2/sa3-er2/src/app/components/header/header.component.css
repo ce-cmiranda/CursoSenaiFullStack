@@ -1,0 +1,68 @@
+/* .example-spacer {
+    flex: 1 1 auto;
+  } */
+
+  .mat-toolbar
+  {
+    background-color: transparent;
+    /* margin: 0px 10% 0px 10%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+  }
+
+  /* header
+{
+    margin: 0px 10% 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+} */
+
+.mat-toolbar #logo
+{
+    background-image: url("../../../assets/img/logo.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+    height: 200px;
+    width: 15%;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+}
+
+.mat-toolbar menu
+{
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mat-toolbar menu ul {
+    list-style-type: none;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mat-toolbar menu  a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mat-toolbar menu  a:hover {
+    text-decoration: underline;
+}
+.mat-toolbar menu  ul .active {
+    text-decoration:double;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #ffffffa4;
+}

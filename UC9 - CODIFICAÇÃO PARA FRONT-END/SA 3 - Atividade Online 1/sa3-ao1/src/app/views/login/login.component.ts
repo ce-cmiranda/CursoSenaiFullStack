@@ -24,6 +24,7 @@ export class LoginComponent implements OnInit {
   @Output() submitEM = new EventEmitter();
 
   ngOnInit(): void {
+  // console.log('oi')
   }
 
 }

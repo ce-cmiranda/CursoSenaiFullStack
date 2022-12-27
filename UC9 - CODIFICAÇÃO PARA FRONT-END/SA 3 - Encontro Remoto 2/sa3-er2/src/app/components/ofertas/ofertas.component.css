@@ -1,0 +1,26 @@
+.ofertas
+{
+    height: 920px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.listaOfertas
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1px;
+}
+
+.mat-card
+{
+    height: 350px;
+    width: 250px;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 50%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    margin: 20px;
+}
