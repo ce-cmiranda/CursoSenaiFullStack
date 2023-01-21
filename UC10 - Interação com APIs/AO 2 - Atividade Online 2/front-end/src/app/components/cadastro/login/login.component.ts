@@ -38,6 +38,7 @@ export class LoginComponent {
       {
         this.cadastros = cadastros
         console.log(this.cadastros)
+        console.log(this.cadastro)
         this.doSomething()
       
       })
@@ -48,7 +49,7 @@ export class LoginComponent {
     let usuario = this.cadastros.find(o => o.usuario.toLowerCase() === this.cadastro.usuario.toLowerCase());
     if (Boolean(usuario) && usuario?.senha == this.cadastro.senha)
     {
-      this.cadastroService.showMessage('Login efetuado com sucesso!')
+      this.cadastroService.showMessage('Sucesso')
       this.router.navigate(['cadastro/tabela'])
       
     }
