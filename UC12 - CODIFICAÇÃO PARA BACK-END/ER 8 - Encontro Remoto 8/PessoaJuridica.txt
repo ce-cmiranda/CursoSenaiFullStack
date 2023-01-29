@@ -1,0 +1,3 @@
+Teste$%Carlos$%46165987000103$%8000$%Rua 1$%30$%False
+Teste 2$%Eduardo$%03321987000110$%7000$%Rua 5$%8$%True
+Teste$%CArlos$%654$%100$%Rua$%3$%True
