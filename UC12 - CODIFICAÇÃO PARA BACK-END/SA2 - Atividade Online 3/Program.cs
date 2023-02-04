@@ -1,4 +1,4 @@
-﻿using ER_8___Encontro_Remoto_8.Classes;
+﻿using SA2___Atividade_Online_3.Classes;
 
 List<PessoaFisica> listaPf = new List<PessoaFisica>();
 List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
@@ -58,8 +58,3 @@ do
     }
 }
 while (opcao != "0");
-
-
-
-
-
