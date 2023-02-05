@@ -21,6 +21,9 @@ insert into users (user_name,email, password) values ('Aphonso', 'Aphonso@teste.
 insert into users (user_name,email, password) values ('Danox', 'cami@teste.com',PWDENCRYPT('12345'))
 
 select * from users;
+
+-- Atualiza Dados de email do usuario Danox 
+UPDATE users SET email = 'deubug@teste.com' WHERE user_id = 8
 --delete from users;
 
 --Cadastra Classes
