@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FullStackSenai-ProjTeste-CECM/1.0.0": {
+        "runtime": {
+          "FullStackSenai-ProjTeste-CECM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FullStackSenai-ProjTeste-CECM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

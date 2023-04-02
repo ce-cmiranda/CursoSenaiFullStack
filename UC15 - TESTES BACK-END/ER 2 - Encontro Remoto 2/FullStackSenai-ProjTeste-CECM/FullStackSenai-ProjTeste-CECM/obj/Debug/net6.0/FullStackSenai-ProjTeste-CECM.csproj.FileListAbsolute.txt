@@ -1,0 +1,12 @@
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\bin\Debug\net6.0\FullStackSenai-ProjTeste-CECM.deps.json
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\bin\Debug\net6.0\FullStackSenai-ProjTeste-CECM.dll
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\bin\Debug\net6.0\FullStackSenai-ProjTeste-CECM.pdb
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.csproj.AssemblyReference.cache
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.AssemblyInfoInputs.cache
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.AssemblyInfo.cs
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.csproj.CoreCompileInputs.cache
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.dll
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\refint\FullStackSenai-ProjTeste-CECM.dll
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\FullStackSenai-ProjTeste-CECM.pdb
+C:\Users\cecmi\source\repos\FullStackSenai-ProjTeste-CECM\FullStackSenai-ProjTeste-CECM\obj\Debug\net6.0\ref\FullStackSenai-ProjTeste-CECM.dll
