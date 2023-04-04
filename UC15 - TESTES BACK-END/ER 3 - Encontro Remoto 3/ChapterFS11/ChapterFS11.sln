@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChapterFS11", "WebApplication2\ChapterFS11.csproj", "{4A334406-C616-4FA1-B5B0-EF41DD33FA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteIntegracao", "TesteIntegracao\TesteIntegracao.csproj", "{92A4FFBB-85C8-4127-AF14-78158BB8C825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A334406-C616-4FA1-B5B0-EF41DD33FA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A334406-C616-4FA1-B5B0-EF41DD33FA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A334406-C616-4FA1-B5B0-EF41DD33FA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A334406-C616-4FA1-B5B0-EF41DD33FA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A4FFBB-85C8-4127-AF14-78158BB8C825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A4FFBB-85C8-4127-AF14-78158BB8C825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A4FFBB-85C8-4127-AF14-78158BB8C825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A4FFBB-85C8-4127-AF14-78158BB8C825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72AB82BA-FC0C-49BB-8F78-47CCC0E1A4B9}
+	EndGlobalSection
+EndGlobal
